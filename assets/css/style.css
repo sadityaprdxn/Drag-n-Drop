@@ -164,6 +164,7 @@ h2 + ul{
   padding-bottom: 3.4%;
   display: -webkit-box;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-align: center;
           align-items: center;
   -webkit-box-pack: justify;
@@ -207,6 +208,7 @@ h2 + ul li{
   padding-bottom: 3.2%;
 }
 
+
 /*=================================
   main styling ends here
 =================================*/
@@ -214,11 +216,6 @@ h2 + ul li{
 /*=================================
   footer styling starts here
 =================================*/ 
-
-footer{
-  background-color: #000;
-}
-
 
 
 
@@ -229,8 +226,20 @@ footer{
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 425px) {
 
+  h2 + ul li{
+    width: 100%;
+    margin-bottom: 10%;
+  }
 
+  .task{
+    margin-bottom: 10%;
+  }
 
+  .priorities ul:last-of-type{
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;}
 }  
