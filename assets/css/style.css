@@ -107,19 +107,21 @@ li {
 .container{
   max-width: 1360px;
   width: 93%; 
-  margin: 0 auto;
+  margin: 27px auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
 
-header{
+header,
+footer {
   background-color: #000;
   color: #FFF;
   padding: 1.8% 0;
 }
 
-header div:first-child{
+header div:first-child,
+footer div:first-child{
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
@@ -198,10 +200,12 @@ h2 + ul li{
   text-transform: uppercase;
   padding: 8px 36px;
   border-radius: 10px;
+  margin-right: 10px;
 }
 
-
-
+.priorities ul:last-of-type{
+  padding-bottom: 3.2%;
+}
 
 /*=================================
   main styling ends here
@@ -211,7 +215,9 @@ h2 + ul li{
   footer styling starts here
 =================================*/ 
 
-
+footer{
+  background-color: #000;
+}
 
 
 
