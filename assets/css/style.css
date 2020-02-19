@@ -144,10 +144,6 @@ nav li:first-child a{
   border-right: 1px solid #FFF;
 }
 
-
-
-
-
 /*=================================
   Header styling ends here
 =================================*/  
@@ -156,9 +152,53 @@ nav li:first-child a{
   main styling starts here
 =================================*/
 
+h2{
+  text-transform: uppercase;
+  font-size: 19px;
+  padding: 1.7% 0 2%;
+}
+
+h2 + ul{
+  padding-bottom: 3.4%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+          justify-content: space-around;
+}
+
+h3{
+  text-align: center;
+  padding: 4.5% 0;
+  text-transform: uppercase;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.high h3 { background-color: #ED1C24; }
+.medium h3 { background-color:  #F26522; }
+.low h3 { background-color: #FFFF00; }
 
 
+h2 + ul li{
+  width: 28.5%;
+  box-sizing: border-box;
+  border: 2px solid #A5A5A5;
+  border-radius: 10px;
+}
 
+.drop{
+  min-height: 243px;
+}
+
+.task{
+  color: #FFF;
+  background-color: #000;
+  text-transform: uppercase;
+  padding: 8px 36px;
+  border-radius: 10px;
+}
 
 
 
