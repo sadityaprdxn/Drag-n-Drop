@@ -100,13 +100,49 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 96%; 
+  margin: 0 auto;
+}
+
+.container{
+  max-width: 1360px;
+  width: 93%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
 
+header{
+  background-color: #000;
+  color: #FFF;
+  padding: 1.8% 0;
+}
+
+header div:first-child{
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+nav{
+  float: right;
+}
+
+nav a{
+  color: #FFF;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-left: 10px ;
+}
+
+nav li:first-child a{
+  padding-right: 10px;
+  border-right: 1px solid #FFF;
+}
 
 
 
