@@ -189,10 +189,13 @@ h2 + ul li{
   box-sizing: border-box;
   border: 2px solid #A5A5A5;
   border-radius: 10px;
+  text-align: center;
 }
 
 .drop{
   min-height: 243px;
+  box-sizing: border-box;
+  padding: 3%;
 }
 
 .task{
@@ -206,6 +209,24 @@ h2 + ul li{
 
 .priorities ul:last-of-type{
   padding-bottom: 3.2%;
+}
+
+.priorities .drop li{
+  width: 90%;
+  box-sizing: border-box;
+  border: none;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.visible{
+  visibility: visible;
+}
+
+.bgcolor{
+  background-color: rgba(0,0,0,0.3);
 }
 
 
